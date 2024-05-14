@@ -1,0 +1,6 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style-type: none; /*to take out the Black dots from LI and UL */
+}

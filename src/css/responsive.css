@@ -1,0 +1,98 @@
+@media (max-width: 926px){
+
+    .video,
+    .imgalign{
+        margin: auto;
+        display: block;
+        padding: 0px;
+        border: 2px solid #000;
+        border-radius: 55px;
+        max-width: 674px;
+        max-height: 568px;
+        margin-bottom: 30px;
+
+    }
+
+}
+
+
+
+@media (max-width: 750px){
+
+    .video,
+    .imgalign{
+        margin: auto;
+        display: block;
+        padding: 0px;
+        border: 2px solid #000;
+        border-radius: 55px;
+        max-width: 606px;
+        max-height: 468px;
+
+    }
+
+    .imgalign{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 699px){
+
+    .video{
+        margin: auto;
+        display: block;
+        padding: 0px;
+        border: 2px solid #000;
+        border-radius: 55px;
+        max-width: 340px;
+        max-height: 378px;
+
+    }
+
+    .imgalign{
+        width: 320px;
+        height: 215px;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 432px){
+    .video,
+    .imgalign{
+        margin: auto;
+        display: block;
+        width: 212px;
+        height: 168px;
+    }
+
+    .imgalign{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 320px){
+    .video,
+    .imgalign{
+        display: none;
+    }
+
+    .link,
+    .imgsendtothevideo{
+        display: block;
+        margin: auto;
+        max-width: 75px;
+        max-height: 75px;
+        min-width: 50px;
+        min-height: 50px;
+    }
+    .link:hover, 
+    .imgsendtothevideo:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
