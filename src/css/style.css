@@ -196,7 +196,33 @@ HTML:
         background-color: rgb(233, 12, 160); /* I recommend use rgb in invert image and another things */
         /*this is one good website for change and invert color https://imgonline.tools/pt/invert-color */
     }
+
+    /* Now making for telephones! yes! for change the color of texts and anothers things, you need use "[href^=tel]" in the tag for inform you gonna change it for cellphone too! */
+
+    p[href^=tel],
+    h1[href^=tel],
+    u[href^=tel]{
+        filter: invert(1);
+    }
+
+    .important-txt[href^=tel]{
+        background-color: #0000FF;
+        color: #ffffff;
+    }
+
+    .send-for-the-recipe[href^=tel]{
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        background-color: #807e7e;
+        a[href^=tel]{
+            color: #fff;
+        }
+    }
     
+    
+    header[href^=tel]{
+        background-color: rgb(233, 12, 160); 
+    }
 }
 
 /* good commands in CSS is filter: ; and transform: ; very good for changing and making animations*/
